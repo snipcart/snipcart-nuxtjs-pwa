@@ -1,13 +1,13 @@
 <template>
-  <div class="ml-10 mr-10">
+  <div class="max-w-screen-2xl mx-auto px-10">
     <main>
       <div>
-        <article class="mb-10" v-for="(guide, index) in guides" :key="index">
+        <section class="mb-10" v-for="(guide, index) in guides" :key="index">
           <div class="post-aside mt-4 mb-4">
             <h3 class="mb-5 underline"><nuxt-link :to="guide.attributes.link">{{ guide.attributes.title }}</nuxt-link></h3>
             <p>{{ guide.attributes.description }}</p>
           </div>
-          <div class="grid grid-cols-3 justify-center gap-36 mb-10">
+          <div class="grid grid-cols-2 sm:grid-cols-3 justify-center gap-8 mb-10">
             <article class="" v-for="(product, index) in guide.attributes.products" :key="index">
               <img :src="product.image" :alt="product.name">
               <p class="font-mono">{{product.name}}</p>
@@ -22,7 +22,7 @@
               </button>
             </article>
           </div>
-        </article>
+        </section>
       </div>
     </main>
   </div>

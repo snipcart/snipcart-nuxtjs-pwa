@@ -1,8 +1,8 @@
 <template>
-  <div class="m-10">
+  <div class="max-w-screen-2xl mx-auto px-10">
     <h2 class="text-2xl font-semibold font-mono mb-4">{{ attributes.title }}</h2>
     <div v-html="html" class="markdown"></div>
-    <div class="grid grid-cols-3 gap-36">
+    <div class="grid grid-cols-2 sm:grid-cols-3 gap-8">
       <article v-for="(product, index) in attributes.products" :key="index">
         <img class="mx-auto" :src="`../${product.image}`" :alt="product.name" />
         <p class="font-mono">{{product.name}}</p>

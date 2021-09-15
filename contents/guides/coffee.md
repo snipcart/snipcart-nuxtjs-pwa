@@ -12,12 +12,12 @@ products:
     -
      sku: "espresso"
      name: "Espresso Coffee"
-     price: "3.5"
+     price: "3.50"
      image: "../images/espresso.png"
     -
      sku: "diy"
      name: "DIY Coffee"
-     price: "2.5"
+     price: "2.50"
      image: "../images/DIY.png"
 ---
 Morning, afternoon or after diner coffee, there's no bad moment to enjoy a cup.
