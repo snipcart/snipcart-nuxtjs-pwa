@@ -12,7 +12,7 @@
           :data-item-name="product.name"
           :data-item-price="product.price"
           :data-item-image="product.image"
-          :data-item-url="`https://snipcart-nuxt-pwa.netlify.com${currentUrl}`"
+          :data-item-url="`https://snipcart-nuxtjs-pwa.netlify.com${currentUrl}`"
           >{{`$${product.price}`}}</button>
       </article>
     </div>

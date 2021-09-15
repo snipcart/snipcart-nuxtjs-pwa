@@ -1,4 +1,4 @@
-# snipcart-nuxt-pwa
+# snipcart-nuxtjs-pwa
 
 ## Build Setup
 
